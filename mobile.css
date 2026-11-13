@@ -1,0 +1,43 @@
+/* ==================== Мобильная адаптация (до 768px) ==================== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home, .shop-header, .products-grid, .about-grid, .collections-grid, #newsletter, .footer-grid {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero-left, .hero-center, .hero-right, .products-grid article, .about-left, .about-right, .col-img-large, .col-img-small, #newsletter img, .newsletter-content {
+        width: 100%;
+    }
+
+    .hero-left h1, .big-quote {
+        font-size: 32px;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .white-banner {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .video-box img {
+        height: 300px;
+    }
+}
